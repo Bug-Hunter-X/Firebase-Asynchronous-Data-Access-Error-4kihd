@@ -1,0 +1,1 @@
+The Firebase SDK might throw an error if you attempt to access data before the asynchronous operation to fetch it completes. This often occurs when trying to read data from a listener or promise before it's fully resolved. For example, if you attach a listener to a Firebase Realtime Database reference, the listener might not have received data yet when you try to read from it.
